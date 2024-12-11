@@ -1,0 +1,68 @@
+.footer-heading {
+    color: #FFFFFF; /* Custom light blue color */
+  }
+  
+  .footer-text {
+    color: #FFFFFF; /* Ensure text color is white */
+  }
+  
+  .bg-dc-blue {
+    background-color: #051b2c; /* Custom blue color */
+    /* height: 572px; */
+  }
+  
+  .bg-dc-light-blue {
+    background-color: #146db2; /* Custom light blue color */
+    /* height: 56px; */
+  }
+  
+  /* Custom text color for the copyright section */
+  .text-gray-900 {
+    color: #FFFFFF; /* Dark gray color */
+  }
+  
+  .disk {
+    list-style-type: disc;  /* Default round bullets */
+    padding-left: 5px;     /* Add padding to move bullets away from text */
+  }
+
+  @media (max-width: 768px) {
+    .disk {
+      list-style-type: none;
+    }
+  }
+
+  .normal{
+    padding-left: 5px; 
+  }
+
+  .text-with-line-spacing {
+    line-height: 1.8; /* Adjust line height for more space between lines */
+  }
+
+  .color{
+    display: flex;
+    align-items: center;
+    color: #1badff;
+  }
+
+  .color strong{
+    padding-left: 20px;
+  }
+
+  .normal1{
+    padding-left: 35px;
+  }
+
+  @media (max-width: 768px) {
+    .normal1 {
+      text-align: left;
+      padding-left: 35px;
+    }
+  }
+
+  .address-item .icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    margin-right: 8px;
+}

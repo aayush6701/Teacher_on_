@@ -1,0 +1,13 @@
+.custom-size {
+    width: 89.66px;
+    height: 91.72px;
+  }
+  
+  /* Optional: Make image sizes responsive */
+  @media (max-width: 768px) {
+    .custom-size {
+      width: 60px; /* Adjust width for smaller screens */
+      height: 61px; /* Adjust height for smaller screens */
+    }
+  }
+  
