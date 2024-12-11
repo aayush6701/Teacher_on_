@@ -171,7 +171,7 @@ const Store = () => {
           <Image src="/search.png" alt="Search" width={32} height={32} className="mr-4 cursor-pointer" />
         </div>
         <button className="ml-4 w-[179px] h-[56px] bg-[#009EF7] text-white rounded-md flex items-center justify-center">
-          <Image src="/search_W.png" alt="Button Icon" width={21} height={21} className="mr-2" />
+          <Image src="/search_w.png" alt="Button Icon" width={21} height={21} className="mr-2" />
           <span className="font-bold">Search</span>
         </button>
       </div>
